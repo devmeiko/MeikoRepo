@@ -21,7 +21,7 @@ namespace StripBoekenWinkel
             float Amount;
             Amount = float.Parse(Console.ReadLine());
             float PriceVatExcl = (float)(Amount * ComicBook);
-            float Vat = (float)Math.Round(((PriceVatExcl/100)*121),2);
+            float Vat = (float)Math.Round(((PriceVatExcl/100)*106),2);
             Console.WriteLine("Price per book exclusive VAT: " + ComicBook + "EUR");
             Console.WriteLine("Amount of books: " + Amount);
             Console.WriteLine("Subtotal exclusive VAT " + PriceVatExcl + "EUR");
