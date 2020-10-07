@@ -11,30 +11,30 @@ namespace Ticket
         static void Main(string[] args)
         {
             //voornaam, familienaam,straat, huisnummer, postcode en gemeente
-            string FName, LName, Street, HNumber, ZIP, City;
+            string fName, lName, street, hNumber, zipCode, city;
             Console.WriteLine("Please provide the following details:");
 
             Console.Write("First Name: ");
-            FName = Console.ReadLine();
+            fName = Console.ReadLine();
 
             Console.Write("Last Name: ");
-            LName = Console.ReadLine();
+            lName = Console.ReadLine();
 
             Console.Write("Street: ");
-            Street = Console.ReadLine();
+            street = Console.ReadLine();
 
             Console.Write("Housenumber: ");
-            HNumber = Console.ReadLine();
+            hNumber = Console.ReadLine();
 
             Console.Write("ZIP Code: ");
-            ZIP = Console.ReadLine();
+            zipCode = Console.ReadLine();
 
             Console.Write("City: ");
-            City = Console.ReadLine();
+            city = Console.ReadLine();
 
-            Console.WriteLine(FName+" "+LName);
-            Console.WriteLine(Street+" "+HNumber);
-            Console.WriteLine(ZIP+", "+City.ToUpper());
+            Console.WriteLine(fName+" "+lName);
+            Console.WriteLine(street+" "+hNumber);
+            Console.WriteLine(zipCode+", "+city.ToUpper());
 
             Console.ForegroundColor = ConsoleColor.Red;
             Console.Write("Press enter to exit...");

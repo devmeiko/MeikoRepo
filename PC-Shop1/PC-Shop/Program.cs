@@ -10,6 +10,17 @@ namespace PC_Shop
     {
         static void Main(string[] args)
         {
+            //5ITN Maico Van den Bossche 16 2020-10-07
+            /*
+             PC-Shop 1.0
+            Vraag volgende zaken aan gebruiker in context van PC-shop:
+            Artikel ? Monitor
+            Aantal stuks ? 2
+            Eenheidsprijs? 169,5
+            Toon volgende output:
+            2 stuks MONITOR
+            Kostprijs: 339,00 €
+            */
             float monitor, keyboard, computer, mouse, phone, data, amount, sub;
             string input;
             monitor = (float)169.5;
